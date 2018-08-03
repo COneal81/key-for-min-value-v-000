@@ -2,5 +2,7 @@
 # Given a hash with numeric values, return the key for the smallest value
 
 def key_for_min_value(name_hash)
-  ikea.detect do |furniture|
+  min_amount = " "
+  name_hash.detect do |furniture, cost|
+    if cost == <
 end
