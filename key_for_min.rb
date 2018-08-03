@@ -6,6 +6,8 @@ def key_for_min_value(name_hash)
   name_hash.detect do |furniture, cost|
     if cost <= 50
       min_amount = furniture
+    else
+      nil
     end
 end
 min_amount
