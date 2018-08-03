@@ -7,7 +7,7 @@ def key_for_min_value(name_hash)
     if cost <= 50
       min_amount = furniture
     else
-      nil
+      return nil
     end
 end
 min_amount
